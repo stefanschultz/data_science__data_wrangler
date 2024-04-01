@@ -17,7 +17,7 @@
 
 import csv
 
-source_file = open('JC-202009-citibike-tripdata.csv', 'r')
+source_file = open('202009CitibikeTripdataExample.csv', 'r')
 citibike_reader = csv.DictReader(source_file)
 
 print(citibike_reader.fieldnames)
